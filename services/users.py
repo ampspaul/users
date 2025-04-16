@@ -1,6 +1,7 @@
 from database import get_db_connection
 from schema import User, UserResponse
 
+#createUser
 def createUser(user:User):
     conn =get_db_connection()
     cursor= conn.cursor()
